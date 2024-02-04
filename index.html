@@ -24,6 +24,10 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
+    <meta
+      name="description"
+      content="Emily is an aspiring front-end developer based in PA, USA who has used SheCodes to build her developer portfolio"
+    />
     <title>Portfolio Project-Emily Brisbin</title>
   </head>
   <body>
@@ -41,11 +45,11 @@
         /></a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="homepage">Home</a>
           </li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/about.html" title="about Emily">About</a></li>
+          <li><a href="/work.html" title="Emily's work">Work</a></li>
+          <li><a href="/contact.html" title="contact Emily">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -73,7 +77,7 @@
               description about the project. Words words words words words
               wordsworsd.
             </p>
-            <a href class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
       </div>
@@ -85,7 +89,7 @@
               description about the project. Words words words words words
               wordsworsd.
             </p>
-            <a href class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -103,21 +107,62 @@
               description about the project. Words words words words words
               wordsworsd.
             </p>
-            <a href class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
       </div>
       <footer>
-        <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:emilybrisbin9@gmail.com" class="email-link"
-            >emilybrisbin9@gmail.com</a
-          >
-          <div class="social-links d-flex justify-content-center mb-5">
-            <a href=""> <i class="fa-brands fa-instagram"></i> </a>
-            <a href=""> <i class="fa-brands fa-github"></i></a>
-            <a href=""> <i class="fa-brands fa-facebook"></i></a>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="contact Emily"
+            >
+              Contact me
+            </a>
           </div>
         </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:emilybrisbin9@gmail.com"
+            class="email-link"
+            title="email Emily"
+          >
+            emilybrisbin9@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.github.com/emilyyvonne"
+            target="_blank"
+            title="Emily's github"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.instragram.com/emily.brisbin"
+            target="_blank"
+            title="Emily's instagram profile"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.twitter.com/emily" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Emily Brisbin and is is open sourced on
+          <a
+            href="https://github.com/emilyyvonne/Portfolio-Project"
+            target="_blank"
+            >GitHub</a
+          >
+        </p>
       </footer>
     </div>
   </body>
